@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    width: 320px;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+    transition: 0.3s;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 4px solid #007bff;
+
+    margin-bottom: 15px;
+}
+
+.profile-card h2 {
+    margin: 10px 0;
+}
+
+.profile-card p {
+    color: #555;
+    margin: 12px 0;
+}
+
+.qr-button {
+    margin-top: 15px;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    background-color: #007bff;
+
+    color: white;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.qr-button:hover {
+    background-color: #0056b3;
+}
+
+.qr-container {
+    width: 300px;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+    display: none;
+}
+
+.qr-image {
+    width: 200px;
+    height: 200px;
+
+    display: block;
+    margin: 15px auto;
+}
+
+.close-button {
+    padding: 10px 20px;
+
+    border: none;
+
+    background-color: red;
+
+    color: white;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.close-button:hover {
+    background-color: darkred;
+}

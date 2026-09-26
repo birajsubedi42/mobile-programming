@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile Card</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="profile-card" id="profileCard">
+
+        <img
+            src="Snapchat-1866237245.jpg"
+            alt="Profile Image"
+            class="profile-image"
+        >
+
+        <h2>Biraj Subedi</h2>
+
+        <p>📍 Kathmandu, Nepal</p>
+        <p>🎓 Computer Science</p>
+        <p>🏫 Presidential Graduate School</p>
+        <p>📧 biraj@gmail.com</p>
+
+        <button class="qr-button" id="showQR">
+            Show QR Code
+        </button>
+
+    </div>
+
+    <div class="qr-container" id="qrContainer">
+
+        <h2>Biraj Subedi</h2>
+
+        <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=Biraj%20Subedi"
+            alt="QR Code"
+            class="qr-image"
+        >
+
+        <button class="close-button" id="closeQR">
+            Close QR
+        </button>
+
+    </div>
+
+</body>
+
+</html>

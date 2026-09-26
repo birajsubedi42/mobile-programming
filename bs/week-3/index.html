@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Profile Card</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <main class="page">
+        <header class="page-header">
+            <h1>Interactive Profile Card</h1>
+            <p>jQuery Practice Assignment</p>
+        </header>
+
+        <section class="workspace">
+            <div class="demo-stage">
+                <div id="profile-card" class="profile-card">
+
+                    <img id="profile-photo"
+                         src="Snapchat-1866237245.jpg"
+                         alt="Profile Photo">
+
+                    <h2 id="student-name">Student Name</h2>
+
+                    <p id="student-bio">
+                        I'm a <strong>Computer Science student</strong>
+                        learning <em>jQuery</em>!
+                    </p>
+
+                    <h3>My Skills</h3>
+
+                    <ul id="skills-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                    </ul>
+
+                    <label for="nickname-input">Nickname:</label>
+                    <input type="text" id="nickname-input"
+                           placeholder="Enter your nickname">
+
+                </div>
+            </div>
+
+            <div class="output-panel">
+                <strong>Output:</strong>
+                <p id="output">Click a button to see the result.</p>
+            </div>
+        </section>
+
+        <section class="controls">
+
+            <div class="control-group">
+                <h2>1. GET & SET</h2>
+                <div class="button-row">
+                    <button id="show-name">Show Name</button>
+                    <button id="change-name">Change Name</button>
+                    <button id="show-bio">Show Bio</button>
+                    <button id="get-input">Get Input</button>
+                    <button id="set-input">Set Input</button>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <h2>2. CSS Classes</h2>
+                <div class="button-row">
+                    <button id="highlight-card">Highlight Card</button>
+                    <button id="remove-highlight">Remove Highlight</button>
+                    <button id="toggle-dark-mode">Toggle Dark Mode</button>
+                    <button id="toggle-rounded">Toggle Rounded</button>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <h2>3. CSS Method</h2>
+                <div class="button-row">
+                    <button id="red-background">Red Background</button>
+                    <button id="green-background">green-Background </button>
+                    <button id="reset-background">Reset Background</button>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <h2>4. Hide & Show</h2>
+                <div class="button-row">
+                    <button id="hide-photo">Hide Photo</button>
+                    <button id="show-photo">Show Photo</button>
+                    <button id="toggle-bio">Toggle Bio</button>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <h2>5. Fade</h2>
+                <div class="button-row">
+                    <button id="fade-out-card">Fade Out Card</button>
+                    <button id="fade-in-card">Fade In Card</button>
+                    <button id="fade-to-half">Fade to 50%</button>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <h2>6. Slide</h2>
+                <div class="button-row">
+                    <button id="slide-up-skills">Slide Up Skills</button>
+                    <button id="slide-down-skills">Slide Down Skills</button>
+                    <button id="slide-toggle-skills">Slide Toggle Skills</button>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <h2>7. Animate</h2>
+                <div class="button-row">
+                    <button id="animate-card">Animate Card</button>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <h2>8. Events</h2>
+                <p>
+                    Hover over the profile photo to add a shadow.
+                    Type in the nickname field to display the pressed key.
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script1.js"></script>
+
+</body>
+</html>
